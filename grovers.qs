@@ -11,11 +11,11 @@ namespace Grovers {
     open Microsoft.Quantum.ResourceEstimation;
 
      
-     @EntryPoint()
-   operation RunProgram() : Result[] {
+    @EntryPoint()
+    operation RunProgram() : Result[] {
        return SixGroverRun(6, [true,false,true,false,true,false]);
         
-   }
+    }
 
     operation GateSwitch(target: Qubit[], pattern: Bool[]) : Unit {
         for i in 0..5 {
