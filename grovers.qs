@@ -18,7 +18,7 @@ namespace Grovers {
     }
 
     operation GateSwitch(target: Qubit[], pattern: Bool[]) : Unit {
-        for i in 0..5 {
+        for i in 0..Length(pattern) - 1 {
             if pattern[i] {
                 X(target[i]); 
             }
