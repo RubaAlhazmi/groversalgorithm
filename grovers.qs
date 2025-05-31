@@ -1,3 +1,5 @@
+//This namespace contains all the parts from grovers.ipynb 
+
 namespace Grovers {
     import Std.Arrays.ForEach;
     open Microsoft.Quantum.Arrays;
@@ -9,8 +11,6 @@ namespace Grovers {
     open Microsoft.Quantum.Measurement;
     open Microsoft.Quantum.Unstable.Arithmetic;
     open Microsoft.Quantum.ResourceEstimation;
-
-
 
      
     @EntryPoint()
